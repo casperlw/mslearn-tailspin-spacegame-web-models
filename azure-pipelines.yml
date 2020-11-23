@@ -39,6 +39,6 @@ steps:
   displayName: 'dotnet publish'
   inputs:
     command: push
-    publishVstsFeed: 'Space Game - web/Tailspin.SpaceGame.Web.Models'
+    publishVstsFeed: 'Space Game - web/Tailspin.SpaceGame.Web.Model'
     allowPackageConflicts: true
   condition: succeeded()
