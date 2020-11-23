@@ -35,8 +35,8 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
  
-- task: NuGetCommand@2
-  displayName: 'Publish NuGet package'
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet publish'
   inputs:
     command: push
     publishVstsFeed: 'Space Game - web/Tailspin.SpaceGame.Web.Models'
